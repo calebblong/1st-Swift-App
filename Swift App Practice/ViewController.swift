@@ -18,8 +18,8 @@ class ViewController: UIViewController {
         
         tapCount = tapCount + 1
         
-        if tapCount >= 12 {
-            TheLabel.text = "You tapped the button 12 times"
+        if tapCount >= 20 {
+            TheLabel.text = "You tapped the button 20 times"
         }
     }
     override func viewDidLoad() {
